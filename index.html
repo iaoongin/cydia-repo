@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf8">
+
+	<body>
+
+	<h1>Hello World</h1>
+
+		<p>This is a cydia repo</p>
+
+		<a href="javascript:add();">添加到cydia</a>
+	<script type="text/javascript">
+
+		function add() {
+			var source = "http://119.23.190.226/cydia-repo/"
+			var repo = "cydia://url/https://cydia.saurik.com/api/share#?source="+source;
+			location.href = repo;
+		}
+    </script>
+	</body>
+
+</html>

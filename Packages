@@ -1,0 +1,267 @@
+Package: com.subdiox.storeswitcher2
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: subdiox
+Installed-Size: 276
+Depends: firmware (>= 11), mobilesubstrate
+Filename: ./debs/com.subdiox.storeswitcher2_1.0.3_iphoneos-arm.deb
+Size: 20946
+MD5sum: 2f98ea7a4d8d354f5bdcf1b4a762f395
+SHA1: fed8d56ad542c5810e90a917754045e20a734182
+SHA256: 9bad409898d7322c6cb007aaa70287f8f66e7a708fb6b8ab23df41b5fce86717
+Section: Tweaks
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: subdiox
+Name: StoreSwitcher 2
+
+Package: me.autotouch.AutoTouch.ios8
+Version: 6.0.3
+Architecture: iphoneos-arm
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Installed-Size: 107816
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/me.autotouch.AutoTouch.ios8_6.0.3_iphoneos-arm.deb
+Size: 24657676
+MD5sum: 4e863dd84f3b69eec205d772200a0ef1
+SHA1: e56e17a6c6b983df9a8e4ca8405701daa4588070
+SHA256: 2032c0ea9b217723292836745ffc378b5f1f19e83e3b012c70aae3510c73b17f
+Section: Utilities
+Priority: optional
+Homepage: https://autotouch.net
+Description: Record and playback touch operations, play macro scripts automatically.
+Author: Kent Krantz <kentkrantz@gmail.com>
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Name: AutoTouch
+
+Package: net.angelxwind.preferenceorganizer2
+Version: 4.0.8
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 2016
+Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 6.0), net.angelxwind.karenprefs (>= 1.5), net.angelxwind.karenlocalizer
+Conflicts: com.phillipt.noappsettings, jp.r-plus.cloaky, me.qusic.preferenceorganizer, com.sull.preferenceorganizer, com.sull.preferenceorganizer2, com.sull.preferenceorganizer7
+Replaces: org.ilendsoft.preferenceorganizer, com.eliz.preferenceorganizer7
+Filename: ./debs/nodelete-net.angelxwind.preferenceorganizer2.deb
+Size: 1389558
+MD5sum: b4677faf3fe036219dd99404c15c0c33
+SHA1: bd626df89ba23bc466bf02dabd8a75689561a528
+SHA256: 155093a517db145d42ba0e28733d1e0b5bcfd4e291292158cdbd6146b0f77596
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Organises your Preferences app into several configurable categories for ease of navigation.
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.preferenceorganizer2
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.preferenceorganizer2.png
+Name: PreferenceOrganizer 2
+
+Package: com.icraze.gestures13
+Version: 1.1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: ./debs/gestures13_1.1.deb
+Size: 3762
+Installed-Size: 67
+MD5sum: fc8f5ddb4eb9a075e116b69541d71a29
+SHA256: d87714aed5934c65bd03d121dc10b49322fdc85634c5e0d55f851a9062c44cfd
+Name: Gestures13
+Description: Enable iPhone X Gestures On All Devices! (iOS 13)
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: iCraze & Ryan Nair <icrazeios@protonmail.com>
+Tag: purpose::extension, compatible::ios13
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gestures13Dp
+dev: icraze
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gestures13Dp
+
+
+Package: kr.xsf1re.flyjb
+Name: FlyJB
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
+Architecture: iphoneos-arm
+Description: (베타테스터용) 날아오르라~ 제비여! (?)
+Maintainer: XsF1re <shg1725x@yahoo.com>
+Author: XsF1re <shg1725x@yahoo.com>
+Section: Tweaks
+Version: 0.2~beta9
+Installed-Size: 740
+Filename: ./debs/kr.xsf1re.flyjb_0.2_beta9_iphoneos-arm.deb
+Size: 122412
+MD5sum: f314eaa0e4fd38fd582263c3432fb707
+SHA1: e3ba33859419c6592299e85781c9afae26570f9f
+SHA256: 501b84fa124b248c3fd603c5346785a7a379f821b89eeca781d9e07eaf52a57e
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+SileoDepiction: https://xsf1re.github.io/repo/depictions/kr.xsf1re.flyjb/sileo-depiction/index.json
+Depiction: https://xsf1re.github.io/repo/depictions/kr.xsf1re.flyjb/
+
+Package: com.hk.flyjb.cn
+Version: 0.2~beta48
+Section: 汉化包
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: debs/com.hk.flyjb.cn_0.2_beta48_iphoneos-arm.deb
+Size: 1980
+Description: FlyJB 简体中文包。FlyJB：韩国佬出的一款屏蔽越狱、禁止注入的插件。作者源：https://xsf1re.github.io/repo/
+Name: FlyJB 简体中文包
+Author: 妖刀
+Depiction: ./debs/com.hk.flyjb.cn_0.2_beta48_iphoneos-arm.deb
+MD5sum: e69b6051930eed2fe1114c092e548f07
+SHA1: f061ea87d1c96c17d446e70692e5846f12785157
+SHA256: 0a6693cd45c816703452d56c54fb3250733269e053d0b428af05e743f1ec25e3
+
+Package: com.kingpuffdaddi.control-center.ccvpn
+Version: 1.0.4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), com.opa334.ccsupport
+Architecture: iphoneos-arm
+Filename: ./debs/ccvpn_1.0.4.deb
+Size: 15068
+Installed-Size: 114
+MD5sum: d4b652cafe00e106a6430e1e5d005d1d
+SHA256: 9d704411c98a963abf1f1f1f486cd3eaba05150bc387f0f2a78c37fc1faeda5d
+Name: CCVPN
+Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
+Description: A Control Center Module to connect/disconnect VPN
+Author: KingPuffdaddi <kingpuffdaddi@icloud.com>
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+dev: kingpuffdaddi
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
+
+Package: com.modmyi.libswift4
+Version: 999.4.2.1-2
+Section: libs
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: libs/libswift4_4.2.1-2.deb
+Size: 18773744
+Installed-Size: 170711
+MD5sum: 0e9aed2309f4121b8beb3a9ebe2b8e6b
+SHA256: 1175b9f29d2959e41989f75bce90166a3f6e49729e0deb7f71c5a48530771711
+Name: libswift4
+Description: libswift dylibs for iOS
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswift4Dp
+dev: kabiroberai
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswift4Dp
+Pin-Priority: 1001
+
+Package: com.johncoates.Flex3
+Version: 3~EarlyAccess4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 9.0), com.rpetrich.rocketbootstrap
+Recommends: com.modmyi.libswift4 (>= 4.0.3)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, Flex3, Flex3beta, flex3featurecatalog
+Architecture: iphoneos-arm
+Filename: debs/flex3_3-4.deb
+Size: 12480092
+Installed-Size: 57210
+MD5sum: 100aa80ca81f53bf20251f2aac724f7a
+SHA256: d648c351186e46020ede6106a952c6eec1c34776083e4e30109bc84e4c188e31
+Name: Flex 3
+Icon: file:///Applications/Flex.app/AppIcon29x29@2x.png
+Description: Develop your own tweaks and share them on the Flex Community Cloud
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: John Coates <john@johncoates.me>
+Tag: purpose::extension, compatible::ios9, compatible::ios10
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+dev: acapulco1988
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flex3Dp
+
+
+Package: applist
+Version: 999.1.5.14
+Section: libs
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Architecture: iphoneos-arm
+Filename: libs/applist_1.5.14_iphoneos-arm.deb
+Size: 93138
+Installed-Size: 600
+MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
+SHA256: 81ad24dd58694e8b6b72706b108f75a51d8eb049c856975e9fc86b1976a25b1e
+Name: AppList
+Website: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+
+Package: com.hk.crack.filzafilemanager
+Version: 3.7.0-18
+Section: Utilities
+Depends: firmware (>= 9.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza
+Architecture: iphoneos-arm
+Filename: debs/com.hk.crack.filzafilemanager_3.7.0-18_iphoneos-arm.deb
+Size: 8304917
+Description: iOS平台文件夹管理器，破解版，直装激活完整版(可能需要手动激活下)。
+Name: Filza文件管理器
+Author: TIGI Software
+Depiction: http://repo.qqtlr.com/index.php?pid=1545
+MD5sum: c4463a38e33aaacc9603b5f90b36c48a
+SHA1: 14d87aa5474e5ad1fb6d048004355c530030e08b
+SHA256: f2229d791bcd2308cf846b114025ca3cfbda65ed9658843ae1b8e87a32e854e3
+
+Package: com.tonykraft.perfectfit
+Version: 1.0.2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap (>= 1.0.3)
+Architecture: iphoneos-arm
+Filename: ./debs/perfectfit_1.0.2.deb
+Size: 35154
+Installed-Size: 279
+Name: PerfectFit
+Icon: file:///Library/PreferenceBundles/perfectfit.bundle/perfectfit@2x.png
+Description: Force apps to fit your screen!
+Author: Tony Kraft <iostonykraft@gmail.com>
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=perfectfitDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=perfectfitDp
+dev: ktony3985
+
+Package: com.rpetrich.videopace
+Version: 1.1.1
+Priority: optional
+Section: Tweaks
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 8.0)
+Architecture: iphoneos-arm
+Filename: debs/com.rpetrich.videopace_1.1.1_iphoneos-arm.deb
+Size: 19484
+Installed-Size: 92
+MD5sum: c4d0e35d42cdfb364db46a90c7381615
+SHA256: f4d6141116e4507c9179f66c519a2bf0955693c42e6a811e0d795620360f0e5e
+Name: VideoPace
+Icon: file:///System/Library/PreferenceBundles/VideoSettings.bundle/icon.png
+Description: Increase speed of video playback
+Author: Ryan Petrich
+Depiction: http://rpetri.ch/cydia/videopace/
+
+Package: com.cydiabc.prysm
+Version: 1.1
+Section: 美化
+Maintainer: Ai-小苹果
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Architecture: iphoneos-arm
+Filename: ./debs/com.cydiabc.prysm_1.1.deb
+Size: 211016
+Installed-Size: 1928
+Description: 从iOS控制中心设置中选择并订购控制中心开关，具体效果预览截图
+Name: Prysm 控制中心美化
+Author: LaughingQuoll
+Sponsor: Ai-小苹果
+Depiction: https://repo.cydiabc.top/index.php?pid=2942
+Icon: file:///Applications/Cydia.app/Sections/Toys.png
+SileoDepiction: https://repo.cydiabc.top/sileo/2942
+MD5sum: 006d709a8325c94c68305d90e5a934a9
+SHA1: c5ec439238433d5bb26515bcf79d30c89aae84fe
+SHA256: bd4a0db5ab1762ca30738f7419b0f0c3d8ccafbb7c7632e1955e78774058ec19
