@@ -1,0 +1,19 @@
+# cydia-repo
+cydia 仓库
+
+- 插件
+  - storeswitcher2
+  - AutoTouch
+  - preferenceorganizer2
+  - gestures13
+  - flyjb
+  - flyjb.cn
+  - ccvpn
+  - libswift4
+  - Flex3
+  - applist
+  - filzafilemanager
+  - perfectfit
+  - videopace
+  - prysm
+  - Legizmo
