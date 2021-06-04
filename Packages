@@ -251,7 +251,7 @@ Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Ai-小苹果
 Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
-Filename: debs/com.cydiabc.prysm_1.1.deb
+Filename: ./debs/com.cydiabc.prysm_1.1.deb
 Size: 211016
 MD5sum: 006d709a8325c94c68305d90e5a934a9
 SHA1: c5ec439238433d5bb26515bcf79d30c89aae84fe
