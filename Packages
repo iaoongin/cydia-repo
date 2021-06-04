@@ -272,7 +272,7 @@ Version: 1.0-21MB081325i
 Architecture: iphoneos-arm
 Maintainer: lunotech11
 Depends: firmware (>= 12.0), mobilesubstrate
-Filename: debs/Legizmo-Release-Internal-1.0-21MB081325i.deb
+Filename: ./debs/Legizmo-Release-Internal-1.0-21MB081325i.deb
 Size: 291344
 MD5sum: 6af2c79a3554b40a0a5ca5f8c0cfaef3
 SHA1: e1693cc80c21f44836dbb0218ad8184d936ee434
