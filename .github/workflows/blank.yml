@@ -55,6 +55,7 @@ jobs:
       - name: scan packages
         run: |
           python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./debs > Packages
+          python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./libs >> Packages
           bzip2 -c9k ./Packages > ./Packages.bz2
           
       - name: GitHub Pages
