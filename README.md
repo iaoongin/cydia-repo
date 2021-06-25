@@ -21,5 +21,6 @@ cydia 仓库
 | prysm                | 控制中心美化插件                 ||
 | Legizmo              | 支持低版本iOS绑定apple watch插件 ||
 | screendump           | 开始vnc服务，支持远程控制        ||
+| 14pip           | 给iOS13用户开启iOS14中的画中画模式。源：https://galacticdev.me/ 源码： https://github.com/Galactic-Dev/14PiP        ||
 
 
