@@ -53,7 +53,7 @@ jobs:
           git clone https://github.com/supermamon/dpkg-scanpackages-py.git
       
       - name: scan packages
-        run: python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./debs > action-Packages
+        run: python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./debs > Packages
           
       - name: GitHub Pages
         # You may pin to the exact commit or the version.
@@ -85,4 +85,4 @@ jobs:
           # If enabled, nothing will be pushed
 #           dry_run: # optional, default is false
           # Enable verbose output
-          verbose: true # optional, default is false 
+#           verbose: true # optional, default is false 
