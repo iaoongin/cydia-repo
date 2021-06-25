@@ -2,6 +2,9 @@
 
 name: CI
 
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -42,7 +45,7 @@ jobs:
           # The target architecture (x86, x64) of the Python interpreter.
           architecture: x64 # optional
           # Used to pull python distributions from actions/python-versions. Since there's a default, this is typically not supplied by the user.
-          token: ${{ github.token }} # optional, default is ${{ github.token }}
+#           token: ${{ github.token }} # optional, default is ${{ github.token }}
       
       - name: install pydpkg
         run: |
