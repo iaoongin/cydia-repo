@@ -53,7 +53,9 @@ jobs:
           git clone https://github.com/supermamon/dpkg-scanpackages-py.git
       
       - name: scan packages
-        run: python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./debs > Packages
+        run: |
+          python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./debs > Packages
+          bzip2 -c9k ./Packages > ./Packages.bz2
           
       - name: GitHub Pages
         # You may pin to the exact commit or the version.
