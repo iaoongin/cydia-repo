@@ -50,7 +50,5 @@ jobs:
           git clone https://github.com/supermamon/dpkg-scanpackages-py.git
       
       - name: scan packages
-        run:  |
-          cd 
-          python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./debs > action-Packages
+        run: python ./dpkg-scanpackages-py/dpkg-scanpackages.py -m ./debs > action-Packages
           
