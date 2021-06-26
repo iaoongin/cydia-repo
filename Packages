@@ -1,3 +1,20 @@
+Package: kr.xsf1re.flyjb
+Version: 0.2.4~beta13
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Filename: ./debs/kr.xsf1re.flyjb_0.2.4_beta13_iphoneos-arm.deb
+Size: 481736
+MD5sum: 89aecd6190da0b2884eb87e5282d0ee6
+SHA1: a27cba4ee2f984126caa4c9a68d1a5b9d4ee299a
+SHA256: a40e15274b425f1712b43eef30fae07e15ec566442dd66234f768eb4284287f5
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Installed-Size: 1192
+Name: FlyJB
+
 Package: com.icraze.gestures13
 Version: 1.1
 Architecture: iphoneos-arm
@@ -19,56 +36,23 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Tag: purpose::extension, compatible::ios13
 dev: icraze
 
-Package: com.rpetrich.videopace
-Version: 1.1.1
+Package: lunotech11.Legizmo
+Version: 1.0-21MB081325i
 Architecture: iphoneos-arm
-Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 8.0)
-Filename: ./debs/com.rpetrich.videopace_1.1.1_iphoneos-arm.deb
-Size: 19484
-MD5sum: c4d0e35d42cdfb364db46a90c7381615
-SHA1: e2648eb5505cd3232befaeab06836873866bb7aa
-SHA256: f4d6141116e4507c9179f66c519a2bf0955693c42e6a811e0d795620360f0e5e
+Maintainer: lunotech11
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/Legizmo-Release-Internal-1.0-21MB081325i.deb
+Size: 291344
+MD5sum: 6af2c79a3554b40a0a5ca5f8c0cfaef3
+SHA1: e1693cc80c21f44836dbb0218ad8184d936ee434
+SHA256: 593cdfc9c4560e6ed74e736fd6fabd666d92c24a9db09fcd65fc18b032fd1d2b
 Section: Tweaks
-Description: Increase speed of video playback
-Author: Ryan Petrich
-Depiction: http://rpetri.ch/cydia/videopace/
-Icon: file:///System/Library/PreferenceBundles/VideoSettings.bundle/icon.png
-Installed-Size: 92
-Name: VideoPace
-Priority: optional
-
-Package: com.cydiabc.prysm
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: Ai-小苹果
-Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
-Filename: ./debs/com.cydiabc.prysm_1.1.deb
-Size: 211016
-MD5sum: 006d709a8325c94c68305d90e5a934a9
-SHA1: c5ec439238433d5bb26515bcf79d30c89aae84fe
-SHA256: bd4a0db5ab1762ca30738f7419b0f0c3d8ccafbb7c7632e1955e78774058ec19
-Section: 美化
-Description: 从iOS控制中心设置中选择并订购控制中心开关，具体效果预览截图
-A12: 0
-Author: LaughingQuoll
-Icon: file:///Applications/Cydia.app/Sections/Toys.png
-Icon2: 4.png
-Installed-Size: 1928
-Name: Prysm 控制中心美化
-Sponsor: Ai-小苹果
-
-Package: com.hk.flyjb.cn
-Version: 0.2~beta48
-Architecture: iphoneos-arm
-Depends: mobilesubstrate
-Filename: ./debs/com.hk.flyjb.cn_0.2_beta48_iphoneos-arm.deb
-Size: 1980
-MD5sum: e69b6051930eed2fe1114c092e548f07
-SHA1: f061ea87d1c96c17d446e70692e5846f12785157
-SHA256: 0a6693cd45c816703452d56c54fb3250733269e053d0b428af05e743f1ec25e3
-Section: 嗨-汉化
-Author: 妖刀
-Name: FlyJB 简体中文包
+Description: Allow iOS to pair with newer versions of watchOS
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Installed-Size: 1840
+Name: Legizmo (Internal Release)
+Tag: cydia::commercial
 
 Package: com.kingpuffdaddi.control-center.ccvpn
 Version: 1.0.4
@@ -91,6 +75,127 @@ Name: CCVPN
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 dev: kingpuffdaddi
 
+Package: com.galacticdev.14pip
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Galactic Dev
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.galacticdev.14pip_1.0_iphoneos-arm.deb
+Size: 45062
+MD5sum: 583ca06cce93c1540abd6a7ec65422a2
+SHA1: a727ed2fc87d7d69efe6157081a23a1d033f7009
+SHA256: db4d5979c08c53d100ff3a047bef9af89af9acb2269b943b756a1036f2d8a594
+Section: Tweaks
+Description: iOS 14 style PiP on iOS 13
+Author: Galactic Dev
+Depiction: https://galactic-dev.github.io/depictions/?p=com.galacticdev.14PiP
+Installed-Size: 460
+Name: 14PiP
+
+Package: com.hk.flyjb.cn
+Version: 0.2~beta48
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Filename: ./debs/com.hk.flyjb.cn_0.2_beta48_iphoneos-arm.deb
+Size: 1980
+MD5sum: e69b6051930eed2fe1114c092e548f07
+SHA1: f061ea87d1c96c17d446e70692e5846f12785157
+SHA256: 0a6693cd45c816703452d56c54fb3250733269e053d0b428af05e743f1ec25e3
+Section: 嗨-汉化
+Author: 妖刀
+Name: FlyJB 简体中文包
+
+Package: com.julioverne.screendump13
+Version: 0.0.3d
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.cosmosgenius.screendump
+Filename: ./debs/com.julioverne.screendump13_0.0.3d_iphoneos-arm.deb
+Size: 1540664
+MD5sum: b7b5404ea02c605e112723b64ecb2bad
+SHA1: 1bc5e92443b2008ff6d2ef8daa9b9bb006039b4e
+SHA256: 47cd279ad8ecc8d3566a04d77b82fd751f188974b40c59211f0e1d2dd0b269f8
+Section: Tweaks
+Description: VNC for ios
+Author: julioverne, Sharat M R
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.screendump13
+Icon: file:///Library/PreferenceLoader/Preferences/screendump/ScreenDump@2x.png
+Name: screendump (iOS 13)
+
+Package: com.rpetrich.videopace
+Version: 1.1.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 4.3), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 8.0)
+Filename: ./debs/com.rpetrich.videopace_1.1.1_iphoneos-arm.deb
+Size: 19484
+MD5sum: c4d0e35d42cdfb364db46a90c7381615
+SHA1: e2648eb5505cd3232befaeab06836873866bb7aa
+SHA256: f4d6141116e4507c9179f66c519a2bf0955693c42e6a811e0d795620360f0e5e
+Section: Tweaks
+Description: Increase speed of video playback
+Author: Ryan Petrich
+Depiction: http://rpetri.ch/cydia/videopace/
+Icon: file:///System/Library/PreferenceBundles/VideoSettings.bundle/icon.png
+Installed-Size: 92
+Name: VideoPace
+Priority: optional
+
+Package: com.hk.crack.filzafilemanager
+Version: 3.7.0-18
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza
+Filename: ./debs/com.hk.crack.filzafilemanager_3.7.0-18_iphoneos-arm.deb
+Size: 8304917
+MD5sum: c4463a38e33aaacc9603b5f90b36c48a
+SHA1: 14d87aa5474e5ad1fb6d048004355c530030e08b
+SHA256: f2229d791bcd2308cf846b114025ca3cfbda65ed9658843ae1b8e87a32e854e3
+Section: 嗨-破解
+Author: TIGI Software
+Name: Filza文件管理器
+
+Package: com.cydiabc.prysm
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Ai-小苹果
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Filename: ./debs/com.cydiabc.prysm_1.1.deb
+Size: 211016
+MD5sum: 006d709a8325c94c68305d90e5a934a9
+SHA1: c5ec439238433d5bb26515bcf79d30c89aae84fe
+SHA256: bd4a0db5ab1762ca30738f7419b0f0c3d8ccafbb7c7632e1955e78774058ec19
+Section: 美化
+Description: 从iOS控制中心设置中选择并订购控制中心开关，具体效果预览截图
+A12: 0
+Author: LaughingQuoll
+Icon: file:///Applications/Cydia.app/Sections/Toys.png
+Icon2: 4.png
+Installed-Size: 1928
+Name: Prysm 控制中心美化
+Sponsor: Ai-小苹果
+
+Package: com.tonykraft.perfectfit
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap (>= 1.0.3)
+Filename: ./debs/perfectfit_1.0.2.deb
+Size: 35154
+MD5sum: 24c102c9408f24a71844de5376105028
+SHA1: a81701375ee4c8fba36ad8d7474f7f90b47df060
+SHA256: ef9cb07ef732b4567d21f282c58fdbfecd1fd8117cd74c41619e91d27fcbe320
+Section: Tweaks
+Description: Force apps to fit your screen!
+Author: Tony Kraft <iostonykraft@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=perfectfitDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=perfectfitDp
+Installed-Size: 279
+Name: PerfectFit
+Sponsor: thebigboss.org <http://thebigboss.org>
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+dev: ktony3985
+
 Package: com.lunogroup.Legizmo
 Version: 1.0-20SA261730i
 Architecture: iphoneos-arm
@@ -110,20 +215,20 @@ Name: Legizmo (Internal Release)
 Tag: cydia::commercial
 
 Package: kr.xsf1re.flyjb
-Version: 0.2.4~beta13
+Version: 0.2~beta9
 Architecture: iphoneos-arm
 Maintainer: XsF1re
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
-Filename: ./debs/kr.xsf1re.flyjb_0.2.4_beta13_iphoneos-arm.deb
-Size: 481736
-MD5sum: 89aecd6190da0b2884eb87e5282d0ee6
-SHA1: a27cba4ee2f984126caa4c9a68d1a5b9d4ee299a
-SHA256: a40e15274b425f1712b43eef30fae07e15ec566442dd66234f768eb4284287f5
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
+Filename: ./debs/kr.xsf1re.flyjb_0.2_beta9_iphoneos-arm.deb
+Size: 122412
+MD5sum: f314eaa0e4fd38fd582263c3432fb707
+SHA1: e3ba33859419c6592299e85781c9afae26570f9f
+SHA256: 501b84fa124b248c3fd603c5346785a7a379f821b89eeca781d9e07eaf52a57e
 Section: Tweaks
 Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Installed-Size: 1192
+Installed-Size: 740
 Name: FlyJB
 
 Package: com.johncoates.Flex3
@@ -151,6 +256,26 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Tag: purpose::extension, compatible::ios9, compatible::ios10
 dev: acapulco1988
 
+Package: me.autotouch.AutoTouch.ios8
+Version: 6.0.3
+Architecture: iphoneos-arm
+Maintainer: Kent Krantz <kentkrantz@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
+Filename: ./debs/me.autotouch.AutoTouch.ios8_6.0.3_iphoneos-arm.deb
+Size: 24657676
+MD5sum: 4e863dd84f3b69eec205d772200a0ef1
+SHA1: e56e17a6c6b983df9a8e4ca8405701daa4588070
+SHA256: 2032c0ea9b217723292836745ffc378b5f1f19e83e3b012c70aae3510c73b17f
+Section: Utilities
+Description: Record and playback touch operations, play macro scripts automatically.
+Author: Kent Krantz <kentkrantz@gmail.com>
+Homepage: https://autotouch.net
+Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
+Installed-Size: 107816
+Name: AutoTouch
+Priority: optional
+
 Package: net.angelxwind.preferenceorganizer2
 Version: 4.0.8
 Architecture: iphoneos-arm
@@ -172,114 +297,6 @@ Icon: file:///Library/KarenRepoIcons/net.angelxwind.preferenceorganizer2.png
 Installed-Size: 2016
 Name: PreferenceOrganizer 2
 
-Package: com.julioverne.screendump13
-Version: 0.0.3d
-Architecture: iphoneos-arm
-Maintainer: Julio
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.cosmosgenius.screendump
-Filename: ./debs/com.julioverne.screendump13_0.0.3d_iphoneos-arm.deb
-Size: 1540664
-MD5sum: b7b5404ea02c605e112723b64ecb2bad
-SHA1: 1bc5e92443b2008ff6d2ef8daa9b9bb006039b4e
-SHA256: 47cd279ad8ecc8d3566a04d77b82fd751f188974b40c59211f0e1d2dd0b269f8
-Section: Tweaks
-Description: VNC for ios
-Author: julioverne, Sharat M R
-Depiction: http://julioverne.github.io/description.html?id=com.julioverne.screendump13
-Icon: file:///Library/PreferenceLoader/Preferences/screendump/ScreenDump@2x.png
-Name: screendump (iOS 13)
-
-Package: com.hk.crack.filzafilemanager
-Version: 3.7.0-18
-Architecture: iphoneos-arm
-Depends: firmware (>= 9.0), zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza
-Filename: ./debs/com.hk.crack.filzafilemanager_3.7.0-18_iphoneos-arm.deb
-Size: 8304917
-MD5sum: c4463a38e33aaacc9603b5f90b36c48a
-SHA1: 14d87aa5474e5ad1fb6d048004355c530030e08b
-SHA256: f2229d791bcd2308cf846b114025ca3cfbda65ed9658843ae1b8e87a32e854e3
-Section: 嗨-破解
-Author: TIGI Software
-Name: Filza文件管理器
-
-Package: com.tonykraft.perfectfit
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap (>= 1.0.3)
-Filename: ./debs/perfectfit_1.0.2.deb
-Size: 35154
-MD5sum: 24c102c9408f24a71844de5376105028
-SHA1: a81701375ee4c8fba36ad8d7474f7f90b47df060
-SHA256: ef9cb07ef732b4567d21f282c58fdbfecd1fd8117cd74c41619e91d27fcbe320
-Section: Tweaks
-Description: Force apps to fit your screen!
-Author: Tony Kraft <iostonykraft@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=perfectfitDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=perfectfitDp
-Installed-Size: 279
-Name: PerfectFit
-Sponsor: thebigboss.org <http://thebigboss.org>
-Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
-dev: ktony3985
-
-Package: me.autotouch.AutoTouch.ios8
-Version: 6.0.3
-Architecture: iphoneos-arm
-Maintainer: Kent Krantz <kentkrantz@gmail.com>
-Depends: firmware (>= 8.0), mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
-Conflicts: com.repo.xarold.com.autotouch8, repo.biteyourapple.net.autotouch8, repo.biteyourapple.net.autotouch, com.hackyouriphone.autotouch8
-Filename: ./debs/me.autotouch.AutoTouch.ios8_6.0.3_iphoneos-arm.deb
-Size: 24657676
-MD5sum: 4e863dd84f3b69eec205d772200a0ef1
-SHA1: e56e17a6c6b983df9a8e4ca8405701daa4588070
-SHA256: 2032c0ea9b217723292836745ffc378b5f1f19e83e3b012c70aae3510c73b17f
-Section: Utilities
-Description: Record and playback touch operations, play macro scripts automatically.
-Author: Kent Krantz <kentkrantz@gmail.com>
-Homepage: https://autotouch.net
-Icon: file:///Applications/AutoTouch.app/AppIcon60x60@2x.png
-Installed-Size: 107816
-Name: AutoTouch
-Priority: optional
-
-Package: lunotech11.Legizmo
-Version: 1.0-21MB081325i
-Architecture: iphoneos-arm
-Maintainer: lunotech11
-Depends: firmware (>= 12.0), mobilesubstrate
-Filename: ./debs/Legizmo-Release-Internal-1.0-21MB081325i.deb
-Size: 291344
-MD5sum: 6af2c79a3554b40a0a5ca5f8c0cfaef3
-SHA1: e1693cc80c21f44836dbb0218ad8184d936ee434
-SHA256: 593cdfc9c4560e6ed74e736fd6fabd666d92c24a9db09fcd65fc18b032fd1d2b
-Section: Tweaks
-Description: Allow iOS to pair with newer versions of watchOS
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-Installed-Size: 1840
-Name: Legizmo (Internal Release)
-Tag: cydia::commercial
-
-Package: com.galacticdev.14pip
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Galactic Dev
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.galacticdev.14pip_1.0_iphoneos-arm.deb
-Size: 45062
-MD5sum: 583ca06cce93c1540abd6a7ec65422a2
-SHA1: a727ed2fc87d7d69efe6157081a23a1d033f7009
-SHA256: db4d5979c08c53d100ff3a047bef9af89af9acb2269b943b756a1036f2d8a594
-Section: Tweaks
-Description: iOS 14 style PiP on iOS 13
-Author: Galactic Dev
-Depiction: https://galactic-dev.github.io/depictions/?p=com.galacticdev.14PiP
-Installed-Size: 460
-Name: 14PiP
-
 Package: com.subdiox.storeswitcher2
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -295,23 +312,6 @@ Description: Adds a button to switch account in App Store account page on iOS 11
 Author: subdiox
 Installed-Size: 276
 Name: StoreSwitcher 2
-
-Package: kr.xsf1re.flyjb
-Version: 0.2~beta9
-Architecture: iphoneos-arm
-Maintainer: XsF1re
-Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common
-Filename: ./debs/kr.xsf1re.flyjb_0.2_beta9_iphoneos-arm.deb
-Size: 122412
-MD5sum: f314eaa0e4fd38fd582263c3432fb707
-SHA1: e3ba33859419c6592299e85781c9afae26570f9f
-SHA256: 501b84fa124b248c3fd603c5346785a7a379f821b89eeca781d9e07eaf52a57e
-Section: Tweaks
-Description: You can HIDE Doing jailbreak your iDevice.
-Author: XsF1re
-Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
-Installed-Size: 740
-Name: FlyJB
 
 Package: com.modmyi.libswift4
 Version: 4.2.1-2
